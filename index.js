@@ -27,7 +27,7 @@ if (typeof window.AudioContext !== 'function' || typeof window.MediaRecorder !==
     icon: 'frown',
     type: 'warning',
     title: 'Your browser is not supported',
-    message: 'To use rollcall, we recommend using the latest version of Chrome or Mozilla Firefox'
+    message: 'To use voicecall, we recommend using the latest version of Chrome or Mozilla Firefox'
   }))
 
   throw new Error(`Unsupported browser ${window.navigator.userAgent}`)
